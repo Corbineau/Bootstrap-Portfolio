@@ -24,7 +24,7 @@ h1 {
     padding: 0;
  }
 
-.navbar-brand {
+#navbar-brand {
     font-family: 'Fredericka the Great', cursive;
     font-size: 2rem;
     text-align: center;
