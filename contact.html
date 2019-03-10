@@ -11,42 +11,56 @@
 </head>
 
 <body>
-    <nav>
-        <div class="navset">
-            <div id="name">
-                <h1>Rabbit Stoddard</h1>
-            </div>
-            <div class="navbox">
-                <ul class="navlist">
-                        <li><a href="index.html">About Me</a> </li> |
-                        <li><a href="portfolio.html">Portfolio</a> </li> |
-                        <li><a href="contact.html">Contact</a> </li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-expand-md">
+        <h1 class="navbar-brand">Rabbit Stoddard</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About Me </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+            </ul>
         </div>
     </nav>
-    <div class="wrapper">
-        <div class="another_wrapper">
-            <div class="content">
-                <header>
-                    <h1>Contact</h1>
-                </header>
-                <div class="bio">
-                    <p>
-                        <form class="contactform">
-                            Name:<br />
-                            <input class="formbox" type="text" name="firstname" />
-                            <br />
-                            Email:<br />
-                            <input class="formbox" type="text" name="lastname" />
-                            <br />
-                            Message:<br />
-                            <textarea class="message" type="text" name="lastname" ></textarea>
-                            <br />
-                            <input class="button" type="submit" value="Submit" />
-                        </form>
-                    </p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-8" id="content">
+                <div class="row" id="header">
+                    <h1 class="col-md-12">Contact Me</h1>
                 </div>
+                <div class="row">
+                    <div class="col-md-12" id="maintext">
+                        <p>
+                            <form class="contactform">
+                                Name:<br />
+                                <input class="formbox" type="text" name="firstname" />
+                                <br />
+                                Email:<br />
+                                <input class="formbox" type="text" name="lastname" />
+                                <br />
+                                Message:<br />
+                                <textarea class="message" type="text" name="lastname"></textarea>
+                                <br />
+                                <input class="button" type="submit" value="Submit" />
+                            </form>
+                        </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+
             </div>
         </div>
     </div>

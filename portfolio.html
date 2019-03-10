@@ -11,62 +11,105 @@
 </head>
 
 <body>
-    <nav>
-        <div class="navset">
-            <div id="name">
-                <h1>Rabbit Stoddard</h1>
-            </div>
-            <div class="navbox">
-                <ul class="navlist">
-                        <li><a href="index.html">About Me</a> </li> |
-                        <li><a href="portfolio.html">Portfolio</a> </li> |
-                        <li><a href="contact.html">Contact</a> </li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-expand-md">
+        <h1 class="navbar-brand">Rabbit Stoddard</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About Me </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+            </ul>
         </div>
     </nav>
-    <div class="wrapper">
-        <div class="another_wrapper">
-            <div class="content">
-                <header>
-                    <h1>Portfolio</h1>
-                </header>
-                <div class="bio foliobox">
-                    <div class="foliocard">
-                        <img class="folioimg" src="./assets/images/city.jpeg" alt="we resolve to dance."/>
-                        <div class="foliobanner">Dance</div>
-                    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-8 col-lg-10" id="content">
+                <div class="row" id="header">
+                    <h1 class="col-md-12">Portfolio</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-12" id="maintext">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-2 col-lg-4 col-md-4 col-sm-2 col-xs-1 foliocard">
+                                    <img class="folioimg" src="./assets/images/city.jpeg" alt="we resolve to dance." />
+                                    <div class="foliobanner">Dance</div>
+                                </div>
+                                <!--<div class="card bg-dark text-white">
+                                    <img src="./assets/images/city.jpeg" class="card-img" alt="we resolve to dance.">
+                                    <div class="card-img-overlay">
+                                        <p class="card-text text-center align-middle shadow-lg p-3 mb-5">Dance</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card bg-dark text-white">
+                                    <img src="./assets/images/mhingolay.JPG" class="card-img" alt="I made a map once.">
+                                    <div class="card-img-overlay">
+                                        <p class="card-text text-center align-middle shadow-lg p-3 mb-5">Art</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card bg-dark text-white">
+                                    <img src="./assets/images/city.jpeg" class="card-img" alt="we resolve to dance.">
+                                    <div class="card-img-overlay">
+                                        <p class="card-text text-center align-middle shadow-lg p-3 mb-5">Dance</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>-->
+                            
 
-                    <div class="foliocard">
-                        <img class="folioimg" src="./assets/images/mhingolay.JPG" alt="I made a map once." />
-                        <div class="foliobanner">Art</div>
-                    </div>
+                        <div class="col-lg-4 col-md-4 col-sm-2 col-xs-1 foliocard">
+                            <img class="folioimg" src="./assets/images/mhingolay.JPG" alt="I made a map once." />
+                            <div class="foliobanner">Art</div>
+                        </div>
 
-                    <div class="foliocard">
-                        <img class="folioimg" src="./assets/images/mor.jpg" alt="gold is pretty." />
-                        <div class="foliobanner">Illumination</div>
+                        <div class="col-lg-4 col-md-4 col-sm-2 col-xs-1 foliocard">
+                            <img class="folioimg" src="./assets/images/mor.jpg" alt="gold is pretty." />
+                            <div class="foliobanner">Illumination</div>
+                        </div>
                     </div>
-
-
-                    <div class="foliocard">
-                        <img class="folioimg" src="./assets/images/stormdrake.jpg" alt="nothing gold can stay" />
-                        <div class="foliobanner">Monsters</div>
+                    <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-2 col-xs-1 foliocard">
+                                    <img class="folioimg" src="./assets/images/stormdrake.jpg" alt="nothing gold can stay" />
+                                    <div class="foliobanner">Monsters</div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-2 col-xs-1 foliocard">
+                                    <img class="folioimg" src="./assets/images/hands.jpg" alt="it comes from nowhere." />
+                                    <div class="foliobanner">Satori</div>
+                                </div>
+        
+                                <div class="col-lg-4 col-md-4 col-sm-2 col-xs-1 foliocard">
+                                    <img class="folioimg" src="./assets/images/avecynne_banner.jpg"
+                                        alt="there are random things to learn." />
+                                    <div class="foliobanner">Trivia</div>
+                                </div>
                     </div>
-                    <div class="foliocard">
-                        <img class="folioimg" src="./assets/images/hands.jpg" alt="it comes from nowhere." />
-                        <div class="foliobanner">Satori</div>
-                    </div>
-
-                    <div class="foliocard">
-                        <img class="folioimg" src="./assets/images/avecynne_banner.jpg" alt="there are random things to learn." />
-                        <div class="foliobanner">Trivia</div>
-                    </div>
-
-                    <div class="foliocard">
-                        <img class="folioimg" src="./assets/images/almiraj.jpg" alt="it'll all get used in a game." />
-                        <div class="foliobanner">Expectation</div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-2 col-xs-1 foliocard">
+                            <img class="folioimg" src="./assets/images/almiraj.jpg"
+                                alt="it'll all get used in a game." />
+                            <div class="foliobanner">Expectation</div>
+                        </div>
+                    </div>   
                     </div>
                 </div>
+            </div>
+            <div class="col-md-2">
+
             </div>
         </div>
     </div>
